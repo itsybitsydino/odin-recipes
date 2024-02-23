@@ -1,7 +1,45 @@
-ul li{
-    color: red;
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-ol li{
-    color: blue;
+h1{
+    text-align: center;
+}
+
+#recipe-name {
+    color: rgb(189, 32, 32);
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+/* Section borders and colours */
+.section{
+    margin: 10px;
+    padding: 1em;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 1px;
+}
+
+.section.ingredients, 
+.section .ingredients {
+    list-style-type: square;
+    color: rgb(111, 64, 172);
+}
+
+.ingredients{
+    background-color: pink;
+}
+
+.steps {
+    background-color: lightblue;
+}
+
+/* List styles */
+ul {
+    list-style-type: circle;
 }
